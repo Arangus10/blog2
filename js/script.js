@@ -22,7 +22,7 @@ function titleClickHandler(e){
 
     /* 4 - get 'href' attribute from the clicked link */
     const articleSelector = clickedElement.getAttribute("href");
-    console.log('articleSelector: ' + articleSelector);
+    console.log('articleSelector: ', articleSelector);
 
     /* 5 - find the correct article using the selector (value of 'href' attribute) */
     const targetArticle = document.querySelector(articleSelector);
@@ -30,7 +30,6 @@ function titleClickHandler(e){
     /* 6 - add class 'active' to the correct article */
     targetArticle.classList.add('active');
     console.log('targetArticle: ', targetArticle);
-
 
 
     //console.log(e);
@@ -43,3 +42,33 @@ const links = document.querySelectorAll('.titles a');
 for(let link of links){
     link.addEventListener('click', titleClickHandler);
 }
+
+const optArticleSelector = '.post',
+    optTitleSelector = '.post-title',
+    optTitleListSelector = '.titles';
+
+function generateTitleLinks(){
+
+    /* remove contents of titleList */
+    const titleList = document.querySelector(optTitleListSelector);
+    function clearTitleList(){
+        titleList.innerHTML = '';
+    }
+    clearTitleList();
+    
+    /* for each article */
+    
+    /* get the article id */
+
+    /* find the title element */
+
+    /* get the title from the title element */
+
+    /* create HTML of the link */
+
+    /* insert link into titleList */
+    
+}
+
+generateTitleLinks();
+    
