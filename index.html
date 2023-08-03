@@ -4,29 +4,32 @@
             <meta charset="UTF-8">
             <title>blog</title>
             <link rel="stylesheet" href="css/style.css">
+            <!-- Bootstrap CSS-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+
         </head>
         <body>
+
+            <!--Navbar-->
+            <nav class="row navbar navbar-light navbar-expand-lg fixed-top shadow-sm bg-white">
+                <div class="logo container-fluid justify-content-center">
+                    <h1 class="display-2">the blog</h1>
+                </div>
+            </nav>
+
             <div class="blog">
                 <div class="container">
-                    <h1 class="logo">my blog</h1>
-                    <main class="wrapper">
-                        <aside class="sidebar">
+                    <div class="row">
+                        <div class="sidebar card col-sm-6 order-sm-1 col-md-2 order-md-0  ">
+                            <div class="card-body">
                             <h2 class="section-title">All posts</h2>
                             <ul class="list titles">
-                                <!--<li><a href="#article-1" class="active"><span>Article 1</span></a></li>
-                                <li><a href="#article-2"><span>Article 2</span></a></li>
-                                <li><a href="#article-3"><span>Article 3</span></a></li>
-                                <li><a href="#article-4"><span>Article 4</span></a></li>
-                                <li><a href="#article-5"><span>Article 5</span></a></li>
-                                <li><a href="#article-6"><span>Article 6</span></a></li>
-                                <li><a href="#article-7"><span>Article 7</span></a></li>
-                                <li><a href="#article-8"><span>Article 8</span></a></li>
-                                <li><a href="#article-9"><span>Article 9</span></a></li>
-                                <li><a href="#article-10"><span>Article 10</span></a></li>-->
                             </ul>
-                        </aside>
-                        <section class="posts">
-                            <article class="post active" id="article-1">
+                            </div>
+                        </div>
+                        <div class="posts card  col-sm-12 order-sm-0 col-md-7 order-md-1  ">
+                            <div class="card-body">
+                            <article class="post active fade-in-text" id="article-1">
                                 <h3 class="post-title">Article 1</h3>
                                 <p class="post-author">by Marion Berry</p>
                                 <div class="post-content">
@@ -42,7 +45,7 @@
                                     </ul>
                                 </div>
                             </article>
-                            <article class="post" id="article-2">
+                            <article class="post fade-in-text" id="article-2">
                                 <h3 class="post-title">Article 2</h3>
                                 <p class="post-author">by Theo Tabby</p>
                                 <div class="post-content">
@@ -58,10 +61,10 @@
                                     </ul>
                                 </div>
                             </article>
-                            <article class="post" id="article-3">
+                            <article class="post fade-in-text" id="article-3">
                                 <h3 class="post-title">Article 3</h3>
                                 <p class="post-author">by George Tuxedo</p>
-                                <div class="post-content">
+                                <div class="post-content fade-in-text">
                                     <p>Mauris vel pellentesque turpis, ac sodales nisl. Quisque iaculis mi velit, ut convallis tellus accumsan a. Quisque iaculis, nisi et dignissim tincidunt, nisl eros euismod nulla, finibus laoreet erat enim posuere elit.</p>
                                     <p>Aenean at semper urna. Duis vel sapien molestie, egestas diam consequat, molestie nulla. Praesent a malesuada metus. Praesent et tempus leo.</p>
                                     <p>Mauris in eleifend neque, vitae eleifend velit. Maecenas purus est, bibendum eget imperdiet id, dictum sed ante. Aenean a magna et eros sagittis aliquet.</p>
@@ -75,7 +78,7 @@
                                     </ul>
                                 </div>
                             </article>
-                            <article class="post" id="article-4">
+                            <article class="post fade-in-text" id="article-4">
                                 <h3 class="post-title">Article 4</h3>
                                 <p class="post-author">by Kitty Toebean</p>
                                 <div class="post-content">
@@ -92,7 +95,7 @@
                                     </ul>
                                 </div>
                             </article>
-                            <article class="post" id="article-5">
+                            <article class="post fade-in-text" id="article-5">
                                 <h3 class="post-title">Article 5</h3>
                                 <p class="post-author">by Marion Berry</p>
                                 <div class="post-content">
@@ -108,7 +111,7 @@
                                     </ul>
                                 </div>
                             </article>
-                            <article class="post" id="article-6">
+                            <article class="post fade-in-text" id="article-6">
                                 <h3 class="post-title">Article 6</h3>
                                 <p class="post-author">by George Tuxedo</p>
                                 <div class="post-content">
@@ -124,7 +127,7 @@
                                     </ul>
                                 </div>
                             </article>
-                            <article class="post" id="article-7">
+                            <article class="post fade-in-text" id="article-7">
                                 <h3 class="post-title">Article 7</h3>
                                 <p class="post-author">by Kitty Toebean</p>
                                 <div class="post-content">
@@ -140,7 +143,7 @@
                                     </ul>
                                 </div>
                             </article>
-                            <article class="post" id="article-8">
+                            <article class="post fade-in-text" id="article-8">
                                 <h3 class="post-title">Article 8</h3>
                                 <p class="post-author">by Theo Tabby</p>
                                 <div class="post-content">
@@ -157,7 +160,7 @@
                                     </ul>
                                 </div>
                             </article>
-                            <article class="post" id="article-9">
+                            <article class="post fade-in-text" id="article-9">
                                 <h3 class="post-title">Article 9</h3>
                                 <p class="post-author">by Marion Berry</p>
                                 <div class="post-content">
@@ -173,7 +176,7 @@
                                     </ul>
                                 </div>
                             </article>
-                            <article class="post" id="article-10">
+                            <article class="post fade-in-text" id="article-10">
                                 <h3 class="post-title">Article 10</h3>
                                 <p class="post-author">by George Tuxedo</p>
                                 <div class="post-content">
@@ -191,8 +194,10 @@
                                     </ul>
                                 </div>
                             </article>
-                        </section>
-                        <aside class="sidebar">
+                        </div>
+                        </div>
+                        <div class="sidebar card  col-sm-6 order-sm-2 col-md-2 order-md-2  ">
+                            <div class="card-body">
                             <h2 class="section-title">Tags</h2>
                             <ul class="list tags">
                                 <li><a href="#">design</a> <span>(6)</span></li>
@@ -224,10 +229,21 @@
                                     </a>
                                 </li>
                             </ul>
-                        </aside>
-                    </main>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </body>
     </html>
     <script src="js/script.js"></script>
+
+    <!-- JavaScript files-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+    <script src="contact.js"></script>
