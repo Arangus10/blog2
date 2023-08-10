@@ -35,6 +35,8 @@ function titleClickHandler(e){
 
     //console.log(e);
     console.log('Link was clicked!');
+    
+    debugger;
 
 }
 
